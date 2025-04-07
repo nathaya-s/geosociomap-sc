@@ -1,0 +1,14 @@
+{
+    "id": "building",
+    "type": "fill",
+    "source": "composite",
+    "source-layer": "building",
+    "paint": {
+      "fill-color": [
+        "case",
+        ["has", "color"],
+        ["get", "color"],
+        "#000000"
+      ]
+    }
+  }

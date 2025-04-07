@@ -1,0 +1,15 @@
+{"configurations": [
+    
+    {
+        "env": {
+            "SDK_REGISTRY_TOKEN": "sk.eyJ1IjoibmF0aGF5YS1zIiwiYSI6ImNtMG5vanZmOTBjbXoyc3M5cTF5Y3JkbjMifQ.kqwsiQFzdci5exYshvJl_w",
+        },
+        "name": "Flutter",
+        "program": "lib/main.dart",
+        "request": "launch",
+        "type": "dart",
+        "args": [
+            "--dart-define", "ACCESS_TOKEN=sk.eyJ1IjoibmF0aGF5YS1zIiwiYSI6ImNtMG5vanZmOTBjbXoyc3M5cTF5Y3JkbjMifQ.kqwsiQFzdci5exYshvJl_w"
+        ],
+    }
+]}
