@@ -16,7 +16,7 @@
         android:label="geosociomap"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
-        <meta-data android:name="com.mapbox.token" android:value="sk.eyJ1IjoibmF0aGF5YS1zIiwiYSI6ImNtMG5vanZmOTBjbXoyc3M5cTF5Y3JkbjMifQ.kqwsiQFzdci5exYshvJl_w" />
+        <meta-data android:name="com.mapbox.token" android:value="your_token" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -41,7 +41,6 @@
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
-            <!-- <meta-data android:name="mapbox_access_token" android:value="sk.eyJ1IjoibmF0aGF5YS1zIiwiYSI6ImNtMG5vanZmOTBjbXoyc3M5cTF5Y3JkbjMifQ.kqwsiQFzdci5exYshvJl_w" /> -->
         </activity>
         <!-- Don't delete the meta-data below.
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
